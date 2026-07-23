@@ -1,0 +1,13 @@
+const express=require('express');
+
+//express(); // only server is created but not start
+const app=express(); //server instance create kr rhe hai
+
+app.get("/", (req, res)=>{
+    res.send("Hii backend development started");
+});
+
+app.get("/about", (req, res)=>{
+    res.send("About Page");
+});
+app.listen(4000); //server ko start krne ke liye listen ko use krte h 

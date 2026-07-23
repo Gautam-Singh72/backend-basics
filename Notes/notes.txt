@@ -1,0 +1,18 @@
+npm init -y => node js application ko initiate krta h
+
+npm i express => express packeage ko install krta hai
+
+server.js => server isme create krte hai
+
+
+//API
+app.get("/", (req, res)=>{  req => jo bhi data front end se ata h usko access krne ke liye {req} object ka use krenge 
+    res.send("hoo");        res => data backend se frontend pe bhejna h to hum {res} ka use krte hai
+})
+
+frontend ek alag application ki tarah treate hota hai
+backend ek alag application ki tarah treat hota hai
+
+what is API ?
+=> API is a set of rules and protocols to communicate two different applications
+

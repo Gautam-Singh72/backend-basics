@@ -1,0 +1,4 @@
+GET => server se data fetch krvana ho tab use krte hai
+POST => server pr data send krna ho
+PATCH => server pe data already hai aur us data ko update krna ho tb use krte hai
+DELETE => server pe data h aur use delete krna ho
